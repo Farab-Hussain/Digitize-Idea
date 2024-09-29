@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans MT";
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: #d5ff40;
+}
+.header {
+  background-color: aqua;
+  padding: 30px 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.h-h1 {
+  font-size: 48px;
+  font-weight: 550;
+  color: black;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.nav a {
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+  font-weight: 550;
+}
+
+.hero {
+  padding: 20px 55px;
+}
+
+.heroText1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.heroText1 h1 {
+  font-size: 170px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.heroVideo {
+  height: 100px;
+  width: 350px;
+  background-color: black;
+  border-radius: 50px;
+  margin-top: 30px;
+  background-image: url(Assets/windows-11-blue-background-dark-background-1920x1200-8228.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+}
+
+.videobtn {
+  height: 100%;
+  width: 80px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videobtn i {
+  font-size: 30px;
+  color: black;
+}
+
+.heroText2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heroText2 h1 {
+  font-size: 170px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.heroText2 p {
+  font-size: 22px;
+  font-weight: 550;
+  width: 550px;
+  margin-top: 60px;
+}
